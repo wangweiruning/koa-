@@ -1,0 +1,18 @@
+{"data":[
+    { "_id" : 1,
+    "productname" : "商品1",
+     "price" : 15, 
+     "inventory_docs" : [ 
+         { "_id" : 1, "pid" : 1, "ordername" : "订单1" },
+          { "_id" : 4, "pid" : 1, "ordername" : "订单4" } 
+       ] 
+    },
+   { "_id" : 2,
+    "productname" : "商品2",
+     "price" : 36,
+      "inventory_docs" : [
+           { "_id" : 2, "pid" : 2, "ordername" : "订单2" }, 
+           { "_id" : 3, "pid" : 2, "ordername" : "订单3" } 
+       ] 
+    }
+]}
