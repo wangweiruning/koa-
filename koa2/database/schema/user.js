@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')    //引入Mongoose
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt')
 const Schema = mongoose.Schema          //声明Schema
 let ObjectId = Schema.Types.ObjectId    //声明Object类型
 // 定义加密密码计算强度
